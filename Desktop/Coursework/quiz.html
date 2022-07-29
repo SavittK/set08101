@@ -1,0 +1,90 @@
+<!Doctype html>
+	<html>
+		<head>
+			<title>Quiz Page</title>
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+			<link rel="stylesheet" type="text/css" href="css/quiz.css">
+			<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+            	<script type="text/javascript">
+
+				$(document).ready(function(){
+					    $('.toggle-bar .toggle-icon').click(function(){
+					        $('.menu ul').slideToggle('')('.navigation-bar-show');
+					    });
+					});
+				</script>
+
+		</head>
+		
+		<body class="bg-color">
+			<header>
+				<div class="navigation">
+				<div class="container">
+					<div class="row">
+						<div class="col-3">
+							<div class="logo">
+								<a href="#"><img src=""></a>
+							</div>
+						</div>
+						<div class="col-9">
+							<div class="toggle-bar">
+								<span class="toggle-icon fa fa-bars"></span>
+							</div>
+							<div class="menu">
+								<ul>
+									<li>
+										<a href="index.html">Home <i class="fas fa-home"></i></a>
+									</li>
+									<li>
+										<a href="quiz.html">Country Picker <i class="far fa-basketball-ball"></i></a>
+									</li>
+									<li>
+										<a href="#">Share  <i class="fa fa-caret-down"></i></a>
+										<ul class="drop-down">
+											<li><a href="mailto:?subject=Check Out this Quiz!&body=https://savittk.github.io/set08101/">Email</a></li>
+											<li><a href="https://twitter.com/share?url=https://savittk.github.io/set08101/&text=Check Out this Quiz!">Twitter</a></li>
+											<li><a href="https://www.facebook.com/sharer/sharer.php?u=https://savittk.github.io/set08101/">Facebook</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			</header>
+			<section>
+				<div class="question">
+					<div class="container">
+						<div class="grid">
+							<div id="quiz">
+							<p id="question"></p>
+							<div class="buttons">
+							<button id="btn0"><span id="choice0"></span></button>
+							<button id="btn1"><span id="choice1"></span></button>
+							<button id="btn2"><span id="choice2"></span></button>
+							<button id="btn3"><span id="choice3"></span></button>
+							<button id="btn4"><span id="choice4"></span></button>
+							<button id="btn5"><span id="choice5"></span></button>
+							<button id="btn6"><span id="choice6"></span></button>
+							<button id="btn7"><span id="choice7"></span></button>
+							<button id="btn8"><span id="choice8"></span></button>
+							</div>
+							<hr style="margin-top: 50px">
+							<footer>
+							<p id="progress">Question x of y</p>
+							</footer>
+							</div>
+							</div>
+					</div>
+				</div>
+			</section>
+			<script src="js/quiz.js"></script>
+		</body>
+		</html>
+
+

@@ -82,8 +82,8 @@ var images = {
     var questions = [
     new Question("Which language are you most familiar with?", ["ChinaFlag", "FranceFlag", "GermanFlag", "JapanFlag", "KoreaFlag", "RussiaFlag", "SaudiaFlag", "SpainFlag", "UKFlag"], "UKFlag"),
     new Question("What type of food do you enjoy?", ["ChinaFood", "FranceFood", "GermanFood", "JapanFood", "KoreaFood", "RussiaFood", "SaudiaArabiaFood", "SpainFood","UKFood"], "UKFood"),
-    new Question("What type of food do you enjoy?", ["ChinaScenery", "FranceScenery", "GermanyScenery",  "JapanScenery", "KoreaScenery", "RussiaScenery", "SaudiaArabiaScenery", "SpainScenery", "UKScenery"], "UKScenery"),
-    new Question("What type of food do you enjoy?", ["ChinaLifestyle", "FranceLifestyle", "GermanyLifestyle",  "JapanLifestyle", "KoreaLifestyle", "RuissiaLifestyle", "SaudiaArabiaLifestyle", "SpainLifestyle", "UKLifestyle"], "UKLifestyle")
+    new Question("What kind of scenery do you like?", ["ChinaScenery", "FranceScenery", "GermanyScenery",  "JapanScenery", "KoreaScenery", "RussiaScenery", "SaudiaArabiaScenery", "SpainScenery", "UKScenery"], "UKScenery"),
+    new Question("What kind of lifestyle suits you best?", ["ChinaLifestyle", "FranceLifestyle", "GermanyLifestyle",  "JapanLifestyle", "KoreaLifestyle", "RuissiaLifestyle", "SaudiaArabiaLifestyle", "SpainLifestyle", "UKLifestyle"], "UKLifestyle")
     ];
     
     function Question(text, choices, answer) {
